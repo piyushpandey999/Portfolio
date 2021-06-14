@@ -1,0 +1,454 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.html {
+  background-color: darkorange;
+}
+.bootstrap {
+  background-color: purple;
+}
+.react {
+  background-color: dodgerblue;
+}
+.links-div {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-link {
+  font-size: 20px;
+  margin: 0 20px;
+}
+
+.head {
+  width: 100%;
+  background-color: aliceblue;
+  height: 95vh;
+  padding: 1em 0 3em;
+}
+.head-div {
+  max-width: 90%;
+  margin: auto;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 13px;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0 50px;
+}
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quote > div > p {
+  font-size: 5em;
+  font-weight: 500;
+  font-family: "Playfair Display", serif;
+  color: navy;
+  line-height: 1em;
+}
+.quote > div > text {
+  font-size: 1em;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: darkblue;
+  line-height: 0;
+}
+.btns {
+  margin-top: 25px;
+}
+.btn {
+  padding: 12px 35px 12px 35px;
+  background-color: tomato;
+  border: none;
+  border-radius: 25px;
+  color: white;
+}
+
+.hero {
+  width: 100%;
+  height: 40em;
+}
+.hero-div {
+  max-width: 80%;
+  margin: auto;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 2em;
+}
+.head-moto {
+  margin-top: 10%;
+}
+.head-moto > p {
+  font-size: 2em;
+  font-weight: 600;
+  line-height: 60px;
+}
+.sub-moto {
+  margin-top: 8%;
+}
+.sub-moto > p {
+  font-size: 20px;
+
+  line-height: 33px;
+}
+.sub-moto-2 {
+  margin-top: 5%;
+}
+.sub-moto-2 > p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 33px;
+}
+
+.query-info {
+  margin-top: 10%;
+}
+.query-info > p {
+  font-size: 3rem;
+  font-weight: 500;
+}
+.query-suggestion {
+  margin-top: 10%;
+}
+.query-suggestion > p {
+  font-size: 40px;
+  font-weight: 200;
+  line-height: 33px;
+}
+.query-id {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 5%;
+}
+.query-id > p {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.about {
+  max-width: 80%;
+  margin: auto;
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
+.about-heading {
+  padding: 5%;
+}
+.about-heading > p {
+  font-size: 3em;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.about-info {
+  padding: 0 1% 1% 4%;
+}
+.about-info > p {
+  font-size: 17px;
+  line-height: 36px;
+}
+.skills {
+  max-width: 70%;
+  margin: auto;
+  height: auto;
+}
+.skill-heading {
+  padding-top: 12%;
+}
+.skill-heading > h1 {
+  font-family: sans-serif;
+}
+.skill-text {
+  padding-top: 7%;
+}
+.skill-text > p {
+  font-size: 17px;
+  line-height: 36px;
+}
+.skill-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 25px;
+  grid-row-gap: 25px;
+  padding: 2em 0 6em;
+}
+.progress {
+  border-radius: 38px;
+}
+
+.contact-form {
+  max-width: 80%;
+  margin: auto;
+  height: 45em;
+}
+.contact-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4em;
+}
+.contact-heading > p {
+  font-size: 3em;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.footer {
+  width: 100%;
+  height: 43em;
+  background-color: whitesmoke;
+}
+.footer-info {
+  max-width: 80%;
+  margin: auto;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-info > p {
+  font-size: 3em;
+  font-family: sans-serif;
+}
+.footer-info > h3 {
+  color: lightslategrey;
+}
+.footer-last {
+  max-width: 80%;
+  margin: auto;
+  height: 20%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: flex-end;
+}
+.copyright > p {
+  cursor: pointer;
+}
+.s-media {
+  display: flex;
+  justify-content: flex-end;
+}
+.s-media > p {
+  padding: 7px;
+  cursor: pointer;
+}
+.s-media > i {
+  padding: 7px;
+  cursor: pointer;
+}
+/* 
+              MEDIA QUERIES
+       */
+@media screen and (min-width: 1300px) {
+}
+@media screen and (max-width: 1300px) {
+  .hero {
+    height: 60em;
+  }
+  .head-moto {
+    margin-top: 5%;
+  }
+  .head-moto > p {
+    font-size: 4em;
+    font-weight: 600;
+    line-height: 80px;
+  }
+  .sub-moto {
+    margin-top: 4%;
+  }
+  .sub-moto-2 {
+    margin-top: 3%;
+  }
+  .hero-div {
+    display: block;
+  }
+  .query-suggestion {
+    margin-top: 5%;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .quote > div > p {
+    font-size: 4em;
+    font-weight: 400;
+    font-family: "Playfair Display", serif;
+    color: navy;
+    line-height: 1em;
+  }
+}
+@media screen and (max-width: 850px) {
+  .skills {
+    height: auto;
+  }
+  .skill-info {
+    display: block;
+  }
+  .progress-div {
+    padding: 2% 0;
+  }
+  .quote > div > p {
+    font-size: 3em;
+    font-weight: 500;
+    font-family: "Playfair Display", serif;
+    color: navy;
+    line-height: 1em;
+  }
+  .quote > div > text {
+    font-size: 1em;
+
+    font-family: sans-serif;
+    color: darkblue;
+    line-height: 2em;
+  }
+}
+@media screen and (max-width: 750px) {
+  .footer-info > p {
+    font-size: 2.5em;
+  }
+}
+@media screen and (max-width: 700px) {
+  .head {
+    height: auto;
+    padding: 2em 0 5em;
+  }
+
+  .hero {
+    height: 50em;
+  }
+  .quote > div > p {
+    font-size: 2em;
+    font-weight: 500;
+  }
+  .quote > div > text {
+    font-size: 1em;
+  }
+  .btns {
+    margin-top: 20px;
+  }
+  .btn {
+    padding: 4px 16px 4px 16px;
+    background-color: tomato;
+    border: none;
+    border-radius: 25px;
+    color: white;
+  }
+  .head-moto > p {
+    font-size: 2em;
+    font-weight: 500;
+    line-height: 60px;
+  }
+  .sub-moto > p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .sub-moto > p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 38px;
+  }
+  .contact-form {
+    height: 50em;
+  }
+  .contact-heading > p {
+    font-size: 2em;
+    font-weight: 400;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer-info > p {
+    font-size: 1.7em;
+  }
+}
+@media screen and (max-width: 550px) {
+  .footer-info > p {
+    font-size: 2em;
+  }
+  .footer-last {
+    display: block;
+  }
+  .s-media {
+    display: flex;
+    justify-content: center;
+  }
+  .copyright {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-info > h3 {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer-info > p {
+    font-size: 1.5em;
+  }
+  .hero {
+    height: 60em;
+  }
+  .query-info > p {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .query-id > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+  }
+  .head-moto > p {
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .query-id > p {
+    font-size: 23px;
+    font-weight: 600;
+  }
+  .head-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, auto);
+  }
+  .quote {
+    justify-content: flex-start;
+    align-items: flex-start;
+    grid-row-start: 2;
+  }
+  .image {
+    grid-row-start: 1;
+    padding: 8px 0;
+  }
+  .quote > div > p {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .footer-info > p {
+    font-size: 1em;
+  }
+  .query-id > p {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
